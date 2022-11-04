@@ -50,11 +50,18 @@ data = [bil1, bil2, bil3]
 print("Data sebelum di urutkan :", data)
 list.sort(data)
 print("Data setelah di urutkan :", data)
+```
 
 Code ini berfungsi untuk mengurutkan data
 ```Python
 list.sort(data)
 ``` 
 
-##Hasil program
+## Hasil program
 ![2](Gambar/Gambar2.png)
+
+## Tugas perulangan
+1. Latihan 1
+*Buat program dengan perulangan bertingkat (nested) for yang 
+menghasilkan output sebagai berikut:
+
