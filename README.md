@@ -59,7 +59,7 @@ print("Data setelah di urutkan :", data)
 `list.sort` Syntax ini berfungsi untuk mengurutkan data
 
 #### Hasil program
- ![2](Gambar/Gambar2.png)
+ ![2](Gambar/Gambar02.png)
 
 ## Tugas perulangan
 ### Latihan 1
@@ -124,7 +124,7 @@ while i in range(jum):
 ```
 
 #### Hasil program
-![4](Gambar/Gambar5.png)
+![4](Gambar/Gambar3.png)
 - `import random` Untuk membuat bilangan acak
 - `jum = int(input("Masukan nilai: "))` Menentukan jumlah input & di konversikan dalam bilangan bulat-dimasukan ke variable `jum`/jumlah
 - `while i in range(jum)` Pengulangan
@@ -149,7 +149,7 @@ max = 0
 while True:
     a = int(input("Masukan bilangan :"))
     if max < a:
-        max = 0
+        max = a
     if a == 0:
         break
 
@@ -170,7 +170,7 @@ print("Bilangan terbesar adalah :", max)
 - `print & max` Menampilkan bilangan 
 
 #### Hasil program
-![6](Gambar/Gambar5.png)
+
 
 # Selesai :)
 
