@@ -51,7 +51,10 @@ print("Data sebelum di urutkan :", data)
 list.sort(data)
 print("Data setelah di urutkan :", data)
 
-Syntax ini berfungsi untuk mengurutkan data
+Code ini berfungsi untuk mengurutkan data
 ```Python
 list.sort(data)
 ``` 
+
+##Hasil program
+![2](Gambar/Gambar2.png)
