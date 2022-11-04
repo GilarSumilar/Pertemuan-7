@@ -10,9 +10,9 @@
 
 ## Tugas struktur kondisi 
 1. Latihan 1
-*Buat program sederhada dengan input 2 buah bilangan, kemudian
- tentukan bilangan terbesar dari kedua bilangan tersebut
- menggunakan statement if.
+- Buat program sederhada dengan input 2 buah bilangan, kemudian
+  tentukan bilangan terbesar dari kedua bilangan tersebut
+  menggunakan statement if.
  
  ```Python
 #Masukan input 
@@ -33,9 +33,9 @@ if (bil1 < bil2):
 ![1](Gambar/Gambar1.png)
 
 2. Latihan 2
-*Buat program untuk mengurutkan data berdasarkan input sejumlah
- data (minimal 3 variable input atau lebih), kemudian tampilkan
- hasilnya secara berurutan mulai dari data terkecil.
+- Buat program untuk mengurutkan data berdasarkan input sejumlah
+  data (minimal 3 variable input atau lebih), kemudian tampilkan
+  hasilnya secara berurutan mulai dari data terkecil.
  
  ```Python
 #Masukan inputan
@@ -81,7 +81,7 @@ baris = 10
 kolom = baris
 ```
 
-2. Untuk perulangan baris dan kolom menggunakan `nested for`
+2. Untuk perulangan baris dan kolom menggunakan `for`
 ```python
 for bar in range(baris):
     for col in range(kolom):
