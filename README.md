@@ -8,7 +8,7 @@
 | **Kelas** | TI.22.A.4 |
 | **Mata Kuliah** | Bahasa Pemrograman |
 
-##Tugas struktur kondisi 
+## Tugas struktur kondisi 
 1. Latihan 1
 *Buat program sederhada dengan input 2 buah bilangan, kemudian
  tentukan bilangan terbesar dari kedua bilangan tersebut
@@ -29,5 +29,29 @@ if (bil1 > bil2):
 if (bil1 < bil2):
     print("Bilangan terbesar :",bil2)
 ```
-##Hasil program
+## Hasil program
+![1](Gambar/Gambar1.png)
 
+2. Latihan 2
+*Buat program untuk mengurutkan data berdasarkan input sejumlah
+ data (minimal 3 variable input atau lebih), kemudian tampilkan
+ hasilnya secara berurutan mulai dari data terkecil.
+ 
+ ```Python
+#Masukan inputan
+bil1 = int(input("Bilangan ke-1: "))
+bil2 = int(input("Bilangan ke-2: "))
+bil3 = int(input("Bilangan ke-3: "))
+
+#Buat variable data
+data = [bil1, bil2, bil3]
+
+#Menampilkan data
+print("Data sebelum di urutkan :", data)
+list.sort(data)
+print("Data setelah di urutkan :", data)
+
+Syntax ini berfungsi untuk mengurutkan data
+```Python
+list.sort(data)
+``` 
