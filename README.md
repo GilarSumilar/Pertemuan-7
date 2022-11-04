@@ -29,7 +29,7 @@ if (bil1 > bil2):
 if (bil1 < bil2):
     print("Bilangan terbesar :",bil2)
 ```
-## Hasil program
+Hasil program
 ![1](Gambar/Gambar1.png)
 
 2. Latihan 2
@@ -54,7 +54,7 @@ print("Data setelah di urutkan :", data)
 
 `list.sort` Syntax ini berfungsi untuk mengurutkan data
 
-## Hasil program
+Hasil program
 ![2](Gambar/Gambar2.png)
 
 ## Tugas perulangan
@@ -95,4 +95,6 @@ for bar in range(baris):
   print("{0:>5}".format(tab), end='')
 print()    
 ```
+Hasil prgram
+![3](Gambar/Gambar4.png)
 
