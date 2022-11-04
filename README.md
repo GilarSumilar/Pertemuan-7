@@ -35,7 +35,7 @@ if (bil1 < bil2):
 
 
 
-## Latihan 2
+### Latihan 2
 
 *Buat program untuk mengurutkan data berdasarkan input sejumlah
  data (minimal 3 variable input atau lebih), kemudian tampilkan
