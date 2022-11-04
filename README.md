@@ -52,10 +52,7 @@ list.sort(data)
 print("Data setelah di urutkan :", data)
 ```
 
-Code ini berfungsi untuk mengurutkan data
-```Python
-list.sort(data)
-``` 
+`list.sort` Syntax ini berfungsi untuk mengurutkan data
 
 ## Hasil program
 ![2](Gambar/Gambar2.png)
@@ -64,4 +61,38 @@ list.sort(data)
 1. Latihan 1
 *Buat program dengan perulangan bertingkat (nested) for yang 
 menghasilkan output sebagai berikut:
+
+```Python
+baris = 10
+kolom = baris
+
+for bar in range(baris):
+    for col in range(kolom):
+        tab = bar+col
+        print("{0:>5}".format(tab), end='')
+    print()
+```
+
+Penjelasan
+
+1. Pendeklarasian variable
+```python
+baris = 10
+kolom = baris
+```
+
+2. Untuk perulangan baris dan kolom menggunakan `nested for`
+```python
+for bar in range(baris):
+    for col in range(kolom):
+        tab = bar+col        
+```
+3. Untuk menampikan hasil dari perulangan
+     * Agar terlihat rapih menggunakan `format string` rata ke kanan sebanyak 5 karakter
+     * Agar tidak membuat baris baru menggunakan `end=''` (baris)
+     * Penggunaan `print()` untuk membuat baris baru (kolom)
+```python
+  print("{0:>5}".format(tab), end='')
+print()    
+```
 
