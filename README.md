@@ -138,6 +138,7 @@ angkarandom = random.uniform(0,0.5)
 
 *Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan.
 Masukkan angka 0 untuk berhenti.*
+
 ![5](Gambar/Gambar7.png)
 
 ```Python
