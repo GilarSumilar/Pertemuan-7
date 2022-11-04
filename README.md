@@ -170,6 +170,7 @@ print("Bilangan terbesar adalah :", max)
 - `print & max` Menampilkan bilangan 
 
 #### Hasil program
+![6](Gambar/Gambar05.png)
 
 
 # Selesai :)
