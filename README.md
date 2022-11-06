@@ -1,4 +1,4 @@
-# Praktikum7
+# Pertemuan-7
 
 ## Profil
 | Variable | Isi |
