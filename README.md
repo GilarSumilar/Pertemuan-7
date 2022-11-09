@@ -133,11 +133,43 @@ while i in range(jum):
 angkarandom = random.uniform(0,0.5)
     print("Bilangan ke :", i, " : ", angkarandom)
 ```
-## Tugas Modul perulangan
+## Tugas Modul praktikum 2
+### Latihan 1
+
+*Buat program sederhana dengan input tiga buah bilangan, dari ketiga bilangan
+ tersebut tampilkan bilangan terbesarnya. Gunakan statement if.*
+ 
+ ```Python
+ 
+a = int(input("Masukan bilangan ke-1 :"))
+b = int(input("Masukan bilangan ke-2 :"))
+c = int(input("Masukan bilangan ke-3 :"))
+
+max = a
+
+if b > max:
+    max = b
+
+if c > max:
+    max = c
+
+print()
+print("Nilai terbesar :", max)
+```
+Penjelasan
+- a,b,c sebagai inputan 
+- `max = a` Dekralasi variable
+- `if` jika b lebih besar dari a/max, maka max = a
+- `if` jika c lebih besar dari a/max, maka max = c
+
+#### Hasil program
+![6](Gambar/Gambar08.png)
+
+## Tugas Modul praktikum 3
 ### Latihan 1
 
 *Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan.
-Masukkan angka 0 untuk berhenti.*
+ Masukkan angka 0 untuk berhenti.*
 
 ![5](Gambar/Gambar7.png)
 
@@ -171,7 +203,7 @@ print("Bilangan terbesar adalah :", max)
 - `print & max` Menampilkan bilangan 
 
 #### Hasil program
-![6](Gambar/Gambar05.png)
+![7](Gambar/Gambar05.png)
 
 
 # Selesai :)
